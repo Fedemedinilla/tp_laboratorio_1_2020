@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1599694773 source:a:\documentos\programacion primer cuatrimestre\tp1 funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tp1 functions.h"
+
+1599689750 a:\documentos\programacion primer cuatrimestre\tp1 funciones\tp1 functions.h
+
+1599696777 source:a:\documentos\programacion primer cuatrimestre\tp1 funciones\tp1 functions.c
+	<stdio.h>
+	<stdlib.h>
+	"tp1 functions.h"
+
+1599694773 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp1 federico medinilla\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tp1 functions.h"
+
+1599689750 a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp1 federico medinilla\tp1 functions.h
+
+1599696777 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp1 federico medinilla\tp1 functions.c
+	<stdio.h>
+	<stdlib.h>
+	"tp1 functions.h"
+
