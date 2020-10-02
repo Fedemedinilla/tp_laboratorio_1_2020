@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1601644392 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+
+1601641505 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+	"getFunctions.h"
+
+1601623043 c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\menu.h
+
+1601644450 c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\arrayemployees.h
+
+1601640111 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+
+1601614113 c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\getfunctions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601633015 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\tp 2\getfunctions.c
+	<string.h>
+	<ctype.h>
+	"getFunctions.h"
+
