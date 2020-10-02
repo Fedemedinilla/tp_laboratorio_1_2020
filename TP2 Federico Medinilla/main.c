@@ -3,8 +3,13 @@
 #include <ctype.h>
 #include "Menu.h"
 #include "ArrayEmployees.h"
-#define TAM 5
+#include "getFunctions.h"
+#define TAM 1001
 
+/* Cosas que rompen:
+a- Validar character a la hora de ingresar nombres y numeros.
+b- Id queda en uso despues de la baja.
+*/
 int main()
 {
     sEmployee list[TAM];

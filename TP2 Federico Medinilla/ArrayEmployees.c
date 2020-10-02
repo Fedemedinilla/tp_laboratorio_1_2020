@@ -8,6 +8,7 @@
 
 #define OCUPADO 0
 #define VACIO 1
+#define MAXTAM 15
 
 int initEmployees(sEmployee list[], int tam)
 {
@@ -93,8 +94,8 @@ int addEmployee(sEmployee list[],int tam, int id)
                 printf("\n*Complete la siguiente informacion del empleado a ingresar: \n");
                 auxEmployee.id=id;
 
-                checkString(auxEmployee.name,"\nIngrese el NOMBRE(Max: 15 chars): ","\n*Error:\nNombre muy largo.\nRe-ingrese el NOMBRE: ",15);
-                checkString(auxEmployee.lastName,"\nIngrese el APELLIDO(Max: 15 chars): ","\n*Error:\nApellido muy largo.\nRe-ingrese el APELLIDO: ",15);
+                checkString(auxEmployee.name,"\nIngrese el NOMBRE(Max: 15 chars): ","\n*Error:\nNombre muy largo.\nRe-ingrese el NOMBRE: ",MAXTAM);
+                checkString(auxEmployee.lastName,"\nIngrese el APELLIDO(Max: 15 chars): ","\n*Error:\nApellido muy largo.\nRe-ingrese el APELLIDO: ",MAXTAM);
                 auxEmployee.salary=checkFloat("\nIngrese el SALARIO(Max: 999,999): ","\n*Error:\nSALARIO invalido.\nRe-ingrese el SALARIO: ");
                 auxEmployee.sector=checkInt("\nIngrese el SECTOR(Max: 99): ","\n*Error:\nSECTOR invalido.\nRe-ingrese el SECTOR: ");
 
@@ -210,13 +211,13 @@ int changeEmployee(sEmployee list[],int tam)
                 switch(changeEmployeeMenu(list,tam))
                 {
                 case 1:
-                    checkString(newName,"\n\nIngrese el (NUEVO) NOMBRE(Max: 15 chars): ","\n*Error:\nNombre muy largo.\nRe-ingrese el NOMBRE: ",15);
+                    checkString(newName,"\n\nIngrese el (NUEVO) NOMBRE(Max: 15 chars): ","\n*Error:\nNombre muy largo.\nRe-ingrese el NOMBRE: ",MAXTAM);
                     strcpy(list[index].name,newName);
                     system("cls");
                     printf("*Nombre modificado:\n");
                     break;
                 case 2:
-                    checkString(newLastName,"\nIngrese el (NUEVO) APELLIDO(Max: 15 chars): ","\n*Error:\nApellido muy largo.\nRe-ingrese el APELLIDO: ",15);
+                    checkString(newLastName,"\nIngrese el (NUEVO) APELLIDO(Max: 15 chars): ","\n*Error:\nApellido muy largo.\nRe-ingrese el APELLIDO: ",MAXTAM);
                     strcpy(list[index].lastName,newLastName);
                     printf("Ingrese el NUEVO APELLIDO:");
                     system("cls");
@@ -384,9 +385,9 @@ void avrSalary(sEmployee list[],int tam)
 
     for(int i=0;i<tam;i++)
     {
-        totalSalary+=list[i].salary;
         if(list[i].isEmpty==0)
         {
+            totalSalary+=list[i].salary;
             employeesCounter++;
         }
     }
@@ -394,12 +395,12 @@ void avrSalary(sEmployee list[],int tam)
 
     for(int i=0;i<tam;i++)
     {
-        if(list[i].salary>promedy)
+        if(list[i].salary>promedy&&list[i].isEmpty==0)
         {
             employeesSupCounter++;
         }
     }
-    printf("El promedio de los salarios es: %.2f \n",promedy);
+    printf("El promedio de los salarios es: %.2f \n\n",promedy);
     printf("%d empleado/s superan el promedio\n",employeesSupCounter);
 }
 

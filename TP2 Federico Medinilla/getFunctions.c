@@ -34,7 +34,7 @@ float checkFloat(char inputMsg[],char errorMsg[])
 }
 void checkString(char string[], char inputMsg[],char errorMsg[], int tam)
 {
-    char aux[31];
+    char aux[51];
     int len;
 
     printf("%s",inputMsg);

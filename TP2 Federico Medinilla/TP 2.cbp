@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Menu.h" />
+		<Unit filename="getFunctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="getFunctions.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

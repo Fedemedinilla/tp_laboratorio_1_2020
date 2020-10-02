@@ -36,3 +36,41 @@
 	<ctype.h>
 	"getFunctions.h"
 
+1601679098 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+	"getFunctions.h"
+
+1601680762 a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\menu.h
+
+1601680762 a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\arrayemployees.h
+
+1601680834 a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\getfunctions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601680762 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+	"getFunctions.h"
+
+1601676438 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Menu.h"
+	"ArrayEmployees.h"
+
+1601677067 source:a:\documentos\programacion primer cuatrimestre\tp_laboratorio_1\tp2 federico medinilla\getfunctions.c
+	<string.h>
+	<ctype.h>
+	"getFunctions.h"
+
