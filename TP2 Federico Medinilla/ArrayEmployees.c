@@ -42,7 +42,7 @@ int searchEmpty(sEmployee list[],int tam)
 }
 void showEmployee(sEmployee auxEmployee)
 {
-    printf("  %4d    %10s    %10s                  %.2f        %2d\n",auxEmployee.id,auxEmployee.name,auxEmployee.lastName,auxEmployee.salary,auxEmployee.sector);
+    printf("  %4d %10s %10s                  %.2f        %2d\n",auxEmployee.id,auxEmployee.name,auxEmployee.lastName,auxEmployee.salary,auxEmployee.sector);
 }
 int showEmployees(sEmployee list[], int tam)
 {
@@ -67,6 +67,7 @@ int showEmployees(sEmployee list[], int tam)
         if(flag ==0)
         {
             printf("*ERROR:\nNo hay empleados cargados para mostrar.\n");
+
         }
         error = 0;
     }

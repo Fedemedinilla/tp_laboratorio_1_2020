@@ -4,7 +4,7 @@
 #include "Menu.h"
 #include "ArrayEmployees.h"
 #include "getFunctions.h"
-#define TAM 1001
+#define TAM 1
 
 /* Cosas que rompen:
 a- Validar character a la hora de ingresar nombres y numeros.

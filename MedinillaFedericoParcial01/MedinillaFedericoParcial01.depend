@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1602677867 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"getFunctions.h"
+
+1602677867 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\menu.h
+
+1602687072 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Menu.h"
+	"getFunctions.h"
+	"marcasFunctions.h"
+	"tiposFunctions.h"
+	"serviciosFunctions.h"
+	"notebookFunctions.h"
+
+1602683477 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\getfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"getFunctions.h"
+
+1602683389 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\getfunctions.h
+
+1602687302 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\notebookfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Menu.h"
+	"getFunctions.h"
+	"notebookFunctions.h"
+
+1602680544 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\marcasfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"marcasFunctions.h"
+
+1602680372 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\marcasfunctions.h
+
+1602680776 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\tiposfunctions.h
+
+1602681035 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\serviciosfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"serviciosFunctions.h"
+
+1602681054 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\serviciosfunctions.h
+
+1602680743 source:c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\tiposfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"tiposFunctions.h"
+
+1602687067 c:\users\federico\desktop\codeblocks proyectos\ay ay\medinillafedericoparcial01\notebookfunctions.h
+
